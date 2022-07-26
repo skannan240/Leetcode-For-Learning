@@ -1,2 +1,2 @@
-# Leetcode-For-Learning
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+Efficient solutions to problem sets through the use of different data structures
+
