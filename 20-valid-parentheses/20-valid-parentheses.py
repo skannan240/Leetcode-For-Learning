@@ -3,6 +3,8 @@ class Solution:
         stack = []
         closeToOpen = { ")" : "(", "]" : "[", "}" : "{"}
         
+        if len(s) % 2 != 0:
+            return False
         
         
         for c in s:
