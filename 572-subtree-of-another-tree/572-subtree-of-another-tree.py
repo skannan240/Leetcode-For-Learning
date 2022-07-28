@@ -21,7 +21,7 @@ class Solution:
         if not s and not t:
             return True
         if s and t and s.val == t.val:
-            return (self.same_tree(s.left, t.left) and
-                    self.same_tree(s.right, t.right))
+            if (self.same_tree(s.left, t.left) and self.same_tree(s.right, t.right)):
+                return True
         return False
         
