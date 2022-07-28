@@ -12,9 +12,9 @@ class Solution:
             return False
         if self.same_tree(root, subRoot):
             return True
+        elif (self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)):
+            return True
         
-        return (self.isSubtree(root.left, subRoot) or
-                self.isSubtree(root.right, subRoot))
         
         
     def same_tree(self, s, t):
